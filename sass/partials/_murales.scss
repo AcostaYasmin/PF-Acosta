@@ -1,0 +1,34 @@
+
+.imagenMurales{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;}
+.divMurales{
+    display: grid;
+    justify-content: center;
+}
+.mixImage{
+    display: grid;
+    justify-content: center;
+}
+@media (min-width:768px ){
+#muralCountainer{
+    section{  
+        .imagenMurales{
+            width: 100vw;
+            justify-content: center;
+            
+            }
+        .articleMurales{
+            .divMurales{
+            display: flex;
+            justify-content: space-around;
+            }
+            .mixImage{
+            display:flex;
+            justify-content: space-around;
+            }
+        }
+}
+}
+}

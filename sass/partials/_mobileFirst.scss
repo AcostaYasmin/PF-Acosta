@@ -1,0 +1,260 @@
+/*mobile firts*/
+.mainMenu{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.iniciaSesion{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.imgBackground{
+    background-image:url(/img/Personalizados.png);
+    background-repeat: no-repeat;
+    background-size: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.biografiaContainer{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    .sectionContainer{
+        display:grid;
+        grid-template-columns: 1fr;
+        align-self:center;
+        justify-self: center;
+        background-color: beige;
+        .articleContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+        }
+    }
+}
+
+.headerGrid{
+    display: grid;
+
+}
+.menu{
+    display: grid;
+}
+.header{
+    display: grid;
+    .nav{
+        display: grid;
+    }
+    .div{
+        display: grid;
+    }
+}
+.sectionBio{
+    display: grid;
+    .imagBio{
+    width: 95vw;
+}
+}
+
+.container__faq{
+.container__lists{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
+.mainVideo{
+    display: grid;
+    width: 100%;
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width:768px){
+    
+    .navInicio{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+        background-color: palevioletred;
+        width: 100%;
+    }
+    .divPregun{
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: space-around;
+        text-align: center;
+        justify-items: center;
+    }
+    .mapa{
+        width: 50%;
+    }
+    .mainMenu{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    .headerGrid{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    .menu{
+        display: grid;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    .iniciaSesion{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    #main{
+        display:flex;
+        justify-content: space-around;
+        align-self: center; 
+            .home{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .tituloBackground{
+                background-color: burlywood;
+                }
+            }
+        .navInicio{
+            display: flex;
+        }
+        .mainMenu{
+            display: flex;
+        }
+        .headerGrid{
+            display: flex;
+        }
+        .menu{
+            display: grid;
+        }
+        .sectionArticle{
+            display: grid;
+            justify-content: center; 
+            .article1{
+            justify-content: center;
+            justify-items: center;
+            display: grid;
+            }
+        }
+        .imagenContainer{ 
+            display: flex;
+            margin:10px;
+            align-items: center;
+            justify-content: space-around;
+            background-color: beige;
+            height: 400px;
+            .imagDesktop{
+                .imgYasmin{
+                display: flex;
+                border-radius: 50px;
+                border: 1px solid white;
+                box-shadow:10px;
+                width: 350px;
+                height: 350px;
+            }
+                .d-nonesm{
+                    display: block;
+                }
+            }
+        }
+        }
+        .backgroundText{
+            display: flex;
+            height: auto;
+            margin: 10px 10px 10px 10px;
+            }  
+        .cardContainer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .mainVideo{
+            display: flex;
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            justify-content: center;
+            video{
+                margin-top: 20px;
+                width: 80%;
+                height: 400px;
+            }
+            }
+    .biografiaConteiner{
+        .tituloBackground{
+            background-color: beige;
+        }
+        .bioContainer{
+        display: flex;
+        vertical-align: center;
+        position:relative;
+        justify-content: stretch;
+            .imgBio {
+            display: flex;
+            height: auto;
+            align-items: center;
+            width: 100%;
+            }
+            }
+            .textBio {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-around;
+            border: 1px solid black;
+            height: 400px;
+            width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            }
+        }
+    .bakcgroundTitulo{
+        display: flex;
+        background-color: beige;
+    }
+    .listacontairMural{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        list-style: none;
+    }
+    .imgDecorativa{
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+        margin-bottom: 35px;
+    }
+}
+
+.preguntasFrec{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}

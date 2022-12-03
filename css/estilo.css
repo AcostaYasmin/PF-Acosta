@@ -1,0 +1,607 @@
+.css-button-sliding-to-left--sand {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #adb5bd;
+  color: #adb5bd;
+}
+
+.css-button-sliding-to-left--sand:hover {
+  color: #fff;
+}
+
+.css-button-sliding-to-left--sand:hover:after {
+  width: 100%;
+}
+
+.css-button-sliding-to-left--sand:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #adb5bd;
+}
+
+.btnConteiner .btnCenter {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  margin: auto;
+  display: block;
+  justify-self: center;
+}
+
+.navFooter {
+  background-color: palevioletred;
+}
+.navFooter li {
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.navFooter li a {
+  color: #000;
+  text-decoration: none;
+}
+.navFooter li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.footerIndex {
+  background-color: palevioletred;
+  margin-top: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerIndex .redSocial {
+  width: 30px;
+  height: 30px;
+}
+
+.imgSocial {
+  width: 30px;
+  height: 30px;
+}
+
+.navFooter li {
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.navFooter li a {
+  color: #000;
+  text-decoration: none;
+}
+.navFooter li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.footerIndex {
+  background-color: palevioletred;
+  margin-top: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerIndex .redSocial {
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 768px) {
+  .navFooter {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: palevioletred;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--font-color);
+}
+
+.container__faq {
+  width: 1200px;
+  margin: auto;
+}
+
+.text__faq {
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 20px;
+  background-image: url(/img/backgraundMainLiso.png);
+}
+
+/*formContacto*/
+#form {
+  border: 1px solid #990000;
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+#form legend {
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+#form ol {
+  list-style: none;
+}
+
+#form ol li {
+  padding-bottom: 5px;
+}
+
+#form ol li label {
+  width: 120px;
+  float: left;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#form input[type=text] {
+  border: 1px solid #CCCCCC;
+}
+
+#form input.btn {
+  padding: 3px;
+  color: #FFFFFF;
+  background-color: #990000;
+  border: 1px solid #000000;
+}
+
+textarea {
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  min-height: 100px;
+  min-height: 200px;
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  #form {
+    width: 95%;
+  }
+}
+.logo_inicio {
+  height: 85px;
+  width: 95px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.imgCentro {
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid white;
+  width: 350px;
+  height: 350px;
+  box-shadow: 10px;
+  padding: 20px;
+}
+
+.miLogo {
+  height: 85px;
+  width: 95px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.backgraundCards {
+  background-color: aquamarine;
+}
+
+/*mural*/
+.imgMural {
+  margin: 20px;
+  justify-content: center;
+  height: 250px;
+}
+
+.divMurales {
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px;
+}
+
+.muralExterior {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+}
+.muralExterior .mixImage {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#principal {
+  min-width: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(/img/geometric-leaves.webp) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.contactoBackground {
+  background-image: url("/img/background-7123020_1920.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.mapa {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 50px #888;
+}
+
+.divPregun {
+  display: grid;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+/*mobile firts*/
+.mainMenu {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.iniciaSesion {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.imgBackground {
+  background-image: url(/img/Personalizados.png);
+  background-repeat: no-repeat;
+  background-size: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.biografiaContainer {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+}
+#main .sectionContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: center;
+  justify-self: center;
+  background-color: beige;
+}
+#main .sectionContainer .articleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.headerGrid {
+  display: grid;
+}
+
+.menu {
+  display: grid;
+}
+
+.header {
+  display: grid;
+}
+.header .nav {
+  display: grid;
+}
+.header .div {
+  display: grid;
+}
+
+.sectionBio {
+  display: grid;
+}
+.sectionBio .imagBio {
+  width: 95vw;
+}
+
+.container__faq .container__lists {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.mainVideo {
+  display: grid;
+  width: 100%;
+}
+.mainVideo video {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .navInicio {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+    background-color: palevioletred;
+    width: 100%;
+  }
+  .divPregun {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    text-align: center;
+    justify-items: center;
+  }
+  .mapa {
+    width: 50%;
+  }
+  .mainMenu {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  .headerGrid {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  .menu {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  .iniciaSesion {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  #main {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+  }
+  #main .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #main .home .tituloBackground {
+    background-color: burlywood;
+  }
+  #main .navInicio {
+    display: flex;
+  }
+  #main .mainMenu {
+    display: flex;
+  }
+  #main .headerGrid {
+    display: flex;
+  }
+  #main .menu {
+    display: grid;
+  }
+  #main .sectionArticle {
+    display: grid;
+    justify-content: center;
+  }
+  #main .sectionArticle .article1 {
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+  }
+  #main .imagenContainer {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: beige;
+    height: 400px;
+  }
+  #main .imagenContainer .imagDesktop .imgYasmin {
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 10px;
+    width: 350px;
+    height: 350px;
+  }
+  #main .imagenContainer .imagDesktop .d-nonesm {
+    display: block;
+  }
+  .backgroundText {
+    display: flex;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+  }
+  .cardContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mainVideo {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .mainVideo video {
+    margin-top: 20px;
+    width: 80%;
+    height: 400px;
+  }
+  .biografiaConteiner .tituloBackground {
+    background-color: beige;
+  }
+  .biografiaConteiner .bioContainer {
+    display: flex;
+    vertical-align: center;
+    position: relative;
+    justify-content: stretch;
+  }
+  .biografiaConteiner .bioContainer .imgBio {
+    display: flex;
+    height: auto;
+    align-items: center;
+    width: 100%;
+  }
+  .biografiaConteiner .textBio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .bakcgroundTitulo {
+    display: flex;
+    background-color: beige;
+  }
+  .listacontairMural {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    list-style: none;
+  }
+  .imgDecorativa {
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    margin-bottom: 35px;
+  }
+}
+.preguntasFrec {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainMenu {
+  margin: 0;
+  padding: 0;
+}
+.mainMenu li {
+  list-style: none;
+  display: flex;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.mainMenu li a {
+  color: #000;
+  text-decoration: none;
+}
+.mainMenu li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.imagenMurales {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.divMurales {
+  display: grid;
+  justify-content: center;
+}
+
+.mixImage {
+  display: grid;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  #muralCountainer section .imagenMurales {
+    width: 100vw;
+    justify-content: center;
+  }
+  #muralCountainer section .articleMurales .divMurales {
+    display: flex;
+    justify-content: space-around;
+  }
+  #muralCountainer section .articleMurales .mixImage {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
